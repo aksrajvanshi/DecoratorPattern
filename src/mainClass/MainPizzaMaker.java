@@ -10,7 +10,7 @@ public class MainPizzaMaker {
 		
 		Pizza newPizza = new OlivesTopping(new OnionTopping(new PlainPizza()));
 		
-		System.out.println("Your Pizza is ready with the details: ");
+		System.out.println("Your Pizza is ready with the details:  ");
 		
 		System.out.println(newPizza.getDescription());
 		
