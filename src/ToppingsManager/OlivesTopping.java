@@ -1,10 +1,12 @@
 package ToppingsManager;
 import PizzaPackage.Pizza;
 
-public class OlivesTopping extends ToppingDecorator{
+public class OlivesTopping extends ToppingsManager{
 
+	Pizza newPizza;
+	
 	public OlivesTopping(Pizza newPizza) {
-		super(newPizza);
+		this.newPizza = newPizza;
 	}
 	
 	public String getDescription(){
